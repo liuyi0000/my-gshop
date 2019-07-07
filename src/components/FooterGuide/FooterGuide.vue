@@ -32,7 +32,7 @@
     name: 'FooterGuide',
     methods: {
       goTo (path) {
-        // 编程式路由导航
+        // 编程式路由导航-----
         this.$router.replace(path)
       }
     }
