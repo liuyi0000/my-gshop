@@ -1,7 +1,6 @@
 <template>
   <section class="profile">
     <Header title="我 的"/>
-
     <section class="profile-number" @click="$router.push('/login')">
       <a href="javascript:" class="profile-link">
         <div class="profile_image">
@@ -99,6 +98,7 @@
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
   @import '../../common/stylus/mixins.styl'
+
   .profile //我的
     width 100%
     .profile-number
@@ -229,5 +229,4 @@
             .icon-jiantou1
               color #bbb
               font-size 10px
-
 </style>

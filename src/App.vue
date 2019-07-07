@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
     <FooterGuide v-if="$route.meta.isShowFooter"/>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-import FooterGuide from './components/FooterGuide/FooterGuide'
+  import FooterGuide from './components/FooterGuide/FooterGuide'
   export default {
     name: 'App',
     data () {
@@ -14,6 +14,12 @@ import FooterGuide from './components/FooterGuide/FooterGuide'
         msg: 'App Component'
       }
     },
+
+    async mounted () {
+      // 分发actoin, 从后台获取数据到state中
+      this.$store.dispatch('getAddress')
+    },
+
     components: {
       FooterGuide
     }
@@ -21,5 +27,4 @@ import FooterGuide from './components/FooterGuide/FooterGuide'
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
-
 </style>

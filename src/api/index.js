@@ -1,8 +1,9 @@
-/* 接口信息 */
+/*
+包含n个接口请求函数的模块
+每个函数返回的都是promise
+*/
 import ajax from './ajax'
-
 const BASE = '/api'
-
 // 根据经纬度获取位置详情
 export const reqAddress = (longitude, latitude) => ajax.get(BASE + `/position/${latitude},${longitude}`)
 

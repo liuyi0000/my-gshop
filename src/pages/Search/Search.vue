@@ -7,12 +7,15 @@
     </form>
   </section>
 </template>
+
 <script type="text/ecmascript-6">
   export default {
   }
 </script>
+
 <style lang="stylus" rel="stylesheet/stylus" scoped>
   @import '../../common/stylus/mixins.styl'
+
   .search  //搜索
     width 100%
     .search_form
@@ -40,5 +43,4 @@
           font-size 16px
           color #fff
           background-color #02a774
-
 </style>

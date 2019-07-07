@@ -8,6 +8,7 @@
     </section>
   </section>
 </template>
+
 <script type="text/ecmascript-6">
   export default {
   }
@@ -38,5 +39,4 @@
         outline none
         border-radius 5px
         padding 10px 20px
-
 </style>

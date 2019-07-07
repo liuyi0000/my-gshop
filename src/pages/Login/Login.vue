@@ -59,6 +59,7 @@
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
   @import '../../common/stylus/mixins.styl'
+
   .loginContainer
     width 100%
     height 100%
@@ -191,5 +192,4 @@
         >.iconfont
           font-size 20px
           color #999
-
 </style>
