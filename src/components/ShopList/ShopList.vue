@@ -43,7 +43,7 @@
           </a>
         </li>
       </ul>
-      <ul>
+      <ul v-else>
         <li>
           <img src="./images/shop_back.svg" alt="loading">
         </li>
